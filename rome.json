@@ -1,0 +1,18 @@
+{
+	"$schema": "./node_modules/rome/configuration_schema.json",
+	"organizeImports": {
+		"enabled": false
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useButtonType": "off"
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true
+	}
+}
