@@ -1,6 +1,7 @@
 export const DeleteIcon = () => (
 	// rome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
 	<svg
+		aria-label="Remove element"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="none"
 		viewBox="0 0 24 24"
@@ -19,6 +20,7 @@ export const DeleteIcon = () => (
 export const EditIcon = () => (
 	// rome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
 	<svg
+		aria-label="Edit element"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="none"
 		viewBox="0 0 24 24"
